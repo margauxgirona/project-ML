@@ -1,0 +1,12 @@
+Questions
+
+1) seuil, relations valables à certain seuil, comment faire pour éviter overfitting et prendre en compte ces relations qui change en fonction des seuils
+	- Construire d'autres colonnes de classification 0 ou 1 en fonction de l'appartenance au seuil
+	- Multiplicateur ?
+	- Transformer les variables en une courbe pour créer une relation linéaire entre la target et la variable (ex COAL_RET et TARGET = ln)
+
+2) comment gérer les cas où la correlation entre la target et la variable est faible ?
+	- privilégier l'ordre à la valeur et la distance entre la prédiction et la vraie valeur
+
+3) Est ce que c'est ok de split le dataset en 2 : france et allemagne ?
+
