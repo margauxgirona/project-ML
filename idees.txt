@@ -10,3 +10,4 @@ Questions
 
 3) Est ce que c'est ok de split le dataset en 2 : france et allemagne ?
 
+4) Utiliser l'ACP pour réduire le nombre de variables ?
