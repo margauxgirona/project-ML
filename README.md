@@ -21,6 +21,12 @@ As explained in the project context, we also aim to relate our results to potent
 
 ## 2. Electricity Futures Price Variation Prediction 
 
+### What is an electricity futures contract?
+
+An *electricity future* is a financial contract that allows market participants to buy, sell, speculate, or hedge against future movements in electricity prices.  
+It represents an agreement to buy or sell electricity at a predefined price for delivery at a specific future date.  
+Because electricity cannot be stored easily, futures play a key role in stabilizing revenues, reducing risk, and enabling speculation on price volatility.
+
 ### Project Overview
 This project aims to predict the daily variation of electricity futures prices using multi-source data from *France* and *Germany*.  
 Electricity prices depend on many interacting factors such as energy production levels, weather conditions, cross-border exchanges, and commodity price fluctuations.
@@ -36,11 +42,6 @@ The objective is to build predictive models capable of capturing non-linear rela
 - 1 target: `TARGET` (daily return of electricity futures)
 - All features are standardized (mean ≈ 0, std ≈ 1)
 
-Preprocessing steps:
-- Removal of redundant features with perfect correlation  
-- Missing values imputed using median  
-- `COUNTRY` encoded  
-- `DAY_ID` removed (non-predictive)
 
 ## 4. Problem Formalization
 
@@ -59,6 +60,8 @@ Preprocessing steps:
 - Linear Regression (global dataset)
 - Linear Regression (France only)
 - Linear Regression (Germany only)
+- Polynomial Regression
+- Decision Tree Regression
 
 ### **Feature Engineering**
 - Threshold-based transformations (ReLU) for non-linear behaviors  
@@ -78,14 +81,16 @@ Preprocessing steps:
   - R²
   - Mean Squared Error (MSE)
 
-## **Results Summary**
+## **Results Summary**  
+*(To be completed later as the project progresses)*
 
 | Model | Dataset | Spearman (Train) | Spearman (Test) |
 |-------|---------|------------------|------------------|
-| Linear Regression | Global | ~28.9% | ~19.5% |
-| Linear Regression | France only | ~24.5% | ~3.6% |
-| Linear Regression | Germany only | ~44.9% | ~37.3% |
-| Feature-engineered Linear Model | Global | ~30.4% | ~19.8% |
+| Linear Regression | Global | — | — |
+| Linear Regression | France only | — | — |
+| Linear Regression | Germany only | — | — |
+| Polynomial Regression | — | — | — |
+| Decision Tree Regression | — | — | — |
 
 ## **Key Observations**
 - Germany's price variations are significantly more predictable than France’s.
