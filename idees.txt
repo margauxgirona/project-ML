@@ -17,3 +17,4 @@ Questions
 https://challengedata.ens.fr/participants/challenges/97/
 
 7) Bagging, K-Fold
+ 8) Trouver les contextes politique/economiques dans lesquelles les données ont été prises
