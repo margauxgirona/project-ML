@@ -18,7 +18,6 @@ The goal is to predict the **daily variation** (`TARGET`) of electricity prices 
 
 As explained in the project context, we also aim to relate our results to potential geopolitical events that occurred during the period covered by our data, in order to better understand the model’s predictio
 
----
 
 ## 2. Electricity Futures Price Variation Prediction 
 
@@ -27,8 +26,6 @@ This project aims to predict the daily variation of electricity futures prices u
 Electricity prices depend on many interacting factors such as energy production levels, weather conditions, cross-border exchanges, and commodity price fluctuations.
 
 The objective is to build predictive models capable of capturing non-linear relationships, country-specific behaviors, and threshold effects, while optimizing Spearman correlation, which measures the quality of ranking rather than exact values.
-
----
 
 ## 3. Dataset Summary 
 
@@ -45,8 +42,6 @@ Preprocessing steps:
 - `COUNTRY` encoded  
 - `DAY_ID` removed (non-predictive)
 
----
-
 ## 4. Problem Formalization
 
 **Task:** Regression  
@@ -57,8 +52,6 @@ Preprocessing steps:
 - Strong non-linear effects
 - Different behaviors between France and Germany
 - Volatile and noisy target variable
-
----
 
 ## 5. Approach & Methodology
 
@@ -85,8 +78,6 @@ Preprocessing steps:
   - R²
   - Mean Squared Error (MSE)
 
----
-
 ## **Results Summary**
 
 | Model | Dataset | Spearman (Train) | Spearman (Test) |
@@ -101,8 +92,6 @@ Preprocessing steps:
 - France shows extremely low signal-to-noise ratio.
 - Threshold-based features improve monotonic relationships.
 - Linear models establish a baseline but clearly show limitations.
-
----
 
 ## Team
 - Mathis Fourreau  
