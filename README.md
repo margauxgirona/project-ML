@@ -1,6 +1,6 @@
 # Machine Learning Project: Predicting Electricity Price Variations
 
-<ins> ## 1. Context </ins>
+## 1. Context 
 
 A wide range of factors influence electricity prices on a daily basis. Local weather conditions can directly impact both electricity production and demand. Longer-term phenomena such as climate change also play an important role. Geopolitical events—such as the war in Ukraine—can affect the price of key commodities used in electricity production, knowing that each country has its own specific energy mix (nuclear, solar, hydro, gas, coal, etc.).  
 Moreover, countries can import or export electricity through dynamic interconnected markets such as those in Europe.  
@@ -20,7 +20,7 @@ As explained in the project context, we also aim to relate our results to potent
 
 ---
 
-<ins>## 2. Electricity Futures Price Variation Prediction </ins>
+## 2. Electricity Futures Price Variation Prediction 
 
 ### Project Overview
 This project aims to predict the daily variation of electricity futures prices using multi-source data from *France* and *Germany*.  
@@ -30,7 +30,7 @@ The objective is to build predictive models capable of capturing non-linear rela
 
 ---
 
-<ins>## 3. Dataset Summary </ins>
+## 3. Dataset Summary 
 
 - 1494 total samples  
   - France: 851  
@@ -47,7 +47,7 @@ Preprocessing steps:
 
 ---
 
-<ins>## 4. Problem Formalization</ins>
+## 4. Problem Formalization
 
 **Task:** Regression  
 **Goal:** Predict the relative variation of electricity futures prices  
@@ -60,7 +60,7 @@ Preprocessing steps:
 
 ---
 
-<ins>## 5. Approach & Methodology</ins>
+## 5. Approach & Methodology
 
 ### **Baseline Models**
 - Linear Regression (global dataset)
