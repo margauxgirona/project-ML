@@ -2,7 +2,7 @@
 
 ## 1. Context 
 
-A wide range of factors influence electricity prices on a daily basis. Local weather conditions can directly impact both electricity production and demand. Longer-term phenomena such as climate change also play an important role. Geopolitical events—such as the war in Ukraine—can affect the price of key commodities used in electricity production, knowing that each country has its own specific energy mix (nuclear, solar, hydro, gas, coal, etc.).  
+A wide range of factors influence electricity prices on a daily basis. Local weather conditions can directly impact both electricity production and demand. Longer-term phenomena such as climate change also play an important role. Geopolitical events (such as the war in Ukraine) can affect the price of key commodities used in electricity production, knowing that each country has its own specific energy mix (nuclear, solar, hydro, gas, coal, etc.).  
 Moreover, countries can import or export electricity through dynamic interconnected markets such as those in Europe.  
 These different elements make electricity price modeling particularly challenging at the country level.
 
