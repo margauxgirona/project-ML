@@ -1,20 +1,69 @@
 Questions
 
-1) seuil, relations valables à certain seuil, comment faire pour éviter overfitting et prendre en compte ces relations qui change en fonction des seuils
-	- Construire d'autres colonnes de classification 0 ou 1 en fonction de l'appartenance au seuil
-	- Multiplicateur ?
-	- Transformer les variables en une courbe pour créer une relation linéaire entre la target et la variable (ex COAL_RET et TARGET = ln)
-
-2) comment gérer les cas où la correlation entre la target et la variable est faible ?
-	- privilégier l'ordre à la valeur et la distance entre la prédiction et la vraie valeur
-
-3) Est ce que c'est ok de split le dataset en 2 : france et allemagne ?
-
-4) Utiliser l'ACP pour réduire le nombre de variables ?
-
-5) Contexte du Challenge : Une multitude de facteurs influencent le prix de l'electricité au quotidien. Des variations locales du climat pourront à la fois affecter la production et la demande électrique par exemple. Des phénomènes à plus long terme, comme le réchauffement climatique, auront également un impact évident. Des évènements géopolitiques, comme la guerre en Ukraine, peuvent en parallèle faire bouger le prix des matières premières qui sont clefs dans la production d'électricité, sachant que chaque pays s'appuie sur un mix énergétique qui lui est propre (nucléaire, solaire, hydrolique, gaz, charbon, etc). De plus chaque pays peut importer/exporter de l'électricité avec ses voisins au travers de marchés dynamiques, comme en Europe. Ces différents élements rendent assez complexe la modélisation du prix de l'électricité par pays.
-
 https://challengedata.ens.fr/participants/challenges/97/
 
 7) Bagging, K-Fold
- 8) Trouver les contextes politique/economiques dans lesquelles les données ont été prises
+
+8) Trouver les contextes politique/economiques dans lesquelles les données ont été prises
+
+9) Grid Saerch, SVM, Random Forest, XG Boost
+
+10) Faire des pipes (regrouper le code) : preprocessing (= feature engineering)
+
+11) biais et variance (dire explicitement)
+
+12) Quest ce que :  Combine several algorithms for ensemble learning decision making
+
+GENERAL CHECK LAB4
+
+README Critère => MARGAUX
+- Business case : ddefine precisely the problem you want to solve, the objective of your project, and how this is directly linked to your 
+field of specialization. This will directly influence the type of data you need to collect.
+- Description of your dataset and the source 
+- Data exploration, graphics and figures about your dataset
+- Formalization of your problem 
+- Presentation of your models
+- How you addressed each obstacle you encountered (parameter optimization, overfitting, underfitting, data unbalance, etc…)
+- Comparison of models results
+- Conclusion about how you tackled your business case 
+- Scientific papers, references, external sources
+
+ANALYSE UNIVARIEE => NATACHA
+- regrader les duplicatats de ligne
+- enlever les variations de prix extrèmes (black swans) OUTLIERS
+- explication des régimes de fonctionnement du nucléaire français
+
+ANALYSE BIVARIEE / MUlTIVARIEE => MATHIS
+- Regarder les relations inter features (ex feature energie renouvelable)
+
+FEATURE => NATACHA
+- Faire une pipe
+- FR_COAL suppr car non diversifié
+- normaliser toutes les features (à tester)
+- A VOIR EN FONCTION DES ANALYSES
+- regrouper des variables dans l'optique de Dimension reduction
+- How to handle noisy data (by binning, regression, clustering)
+- StratifiedKfold cross-validation pour tous les models => method de split
+
+MODELS
+- Linear Regression => Mathis
+– Polynomial Regression => Mathis
+– Decision Tree Regression (à completer) => MATHIS
+- PCA Montrer qu'on l'a fait mais pas le garder
+- DecisionTreeClassifier
+- Voting Bagging or Stacking
+
+- Grid Saerch
+- SVM => Margaux
+- Random Forest (outside scope of the course)
+- XG Boost (outside scope of the course)
+- define hyperparameter
+
+CONCLUSION
+- BIAS / VARIANCE TRADE OFF
+
+LATEX 
+- copier coller readme
+
+GOOGLE SCHOLAR
+https://www.sciencedirect.com/science/article/abs/pii/S1364032115013866?casa_token=7cGV5UA93xwAAAAA:BUhcOVfLbD5dupC4zZ53jStxBoCLME_91glTYGRvhO2NUIli0geEjzznQf_kU0hz8UXoAb44
