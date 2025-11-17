@@ -37,8 +37,8 @@ ANALYSE BIVARIEE / MUlTIVARIEE => MATHIS
 - Regarder les relations inter features (ex feature energie renouvelable)
 
 FEATURE => NATACHA
-- Faire une pipe
-- FR_COAL suppr car non diversifié
+- Faire une pipe FAIT
+- FR_COAL suppr car non diversifié FAIT
 - normaliser toutes les features (à tester)
 - A VOIR EN FONCTION DES ANALYSES
 - regrouper des variables dans l'optique de Dimension reduction
