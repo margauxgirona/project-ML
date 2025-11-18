@@ -30,7 +30,7 @@ field of specialization. This will directly influence the type of data you need 
 
 ANALYSE UNIVARIEE => NATACHA
 - regrader les duplicatats de ligne
-- enlever les variations de prix extrèmes (black swans) OUTLIERS
+- enlever les variations de prix extrèmes (black swans) OUTLIERS FAIT
 - explication des régimes de fonctionnement du nucléaire français
 
 ANALYSE BIVARIEE / MUlTIVARIEE => MATHIS
@@ -43,11 +43,11 @@ FEATURE => NATACHA
 - A VOIR EN FONCTION DES ANALYSES
 - regrouper des variables dans l'optique de Dimension reduction
 - How to handle noisy data (by binning, regression, clustering)
-- StratifiedKfold cross-validation pour tous les models => method de split
+- StratifiedKfold cross-validation pour tous les models => method de split FAIT
 
 MODELS
-- Linear Regression => Mathis
-– Polynomial Regression => Mathis
+- Linear Regression => Mathis FAIT
+– Polynomial Regression => Mathis FAIT
 – Decision Tree Regression (à completer) => MATHIS
 - PCA Montrer qu'on l'a fait mais pas le garder
 - DecisionTreeClassifier
