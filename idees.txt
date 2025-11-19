@@ -40,8 +40,12 @@ ANALYSE BIVARIEE / MUlTIVARIEE => MATHIS
 - regarder si y'a des variables à regrouper
 
 FEATURE ENGINEERING => NATACHA
-- changer de place le traitement des outliers (mettre dans la pipe de base)
-- standardiser ou non en fonction du model
+- changer de place le traitement des outliers (mettre dans la pipe de base) FAIT
+- standardiser ou non en fonction du model FAIT
+- retravailler le pipeline_all
+    - modifier l'implémentation de la fonction features_engineering maintenant appellée transform()
+    - séparer france et allemagne
+    - ajouter la condition de grid search
 - mettre grid search dans le feature : parametre en entrée dico = None
 
 - regrouper des variables dans l'optique de Dimension reduction en fonction de l'analyse multi
