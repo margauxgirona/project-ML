@@ -27,43 +27,50 @@ field of specialization. This will directly influence the type of data you need 
 - Comparison of models results
 - Conclusion about how you tackled your business case 
 - Scientific papers, references, external sources
+- coefficient de spearman 
 
 ANALYSE UNIVARIEE => NATACHA
 - regrader les duplicatats de ligne
 - enlever les variations de prix extrèmes (black swans) OUTLIERS FAIT
 - explication des régimes de fonctionnement du nucléaire français
+- variable pas standardisé meme si elles en ont l'air
 
 ANALYSE BIVARIEE / MUlTIVARIEE => MATHIS
 - Regarder les relations inter features (ex feature energie renouvelable)
+- regarder si y'a des variables à regrouper
 
-FEATURE => NATACHA
-- Faire une pipe FAIT
-- FR_COAL suppr car non diversifié FAIT
-- normaliser toutes les features (à tester)
-- A VOIR EN FONCTION DES ANALYSES
-- regrouper des variables dans l'optique de Dimension reduction
-- How to handle noisy data (by binning, regression, clustering)
-- StratifiedKfold cross-validation pour tous les models => method de split FAIT
+FEATURE ENGINEERING => NATACHA
+- changer de place le traitement des outliers (mettre dans la pipe de base)
+- standardiser ou non en fonction du model
+- mettre grid search dans le feature : parametre en entrée dico = None
+
+- regrouper des variables dans l'optique de Dimension reduction en fonction de l'analyse multi
+
+PIPE GENERAL => MATHIS
+- renvoyer les scores pour faire Bias / variance
 
 MODELS
+- créer un dico qui stock les paramètres et les résultats pour comparaison => NATACHA
+
 - Linear Regression => Mathis FAIT
 – Polynomial Regression => Mathis FAIT
 – Decision Tree Regression (à completer) => MATHIS
-- PCA Montrer qu'on l'a fait mais pas le garder
-- DecisionTreeClassifier
-- Voting Bagging or Stacking
+- PCA Montrer qu'on l'a fait mais pas le garder => NATACHA
+- Voting Bagging or Stacking(pour decision tree regressor) COMPARER KFOLD ET BAGGING => MARGAUX 
+- SVM => MARGAUX
 
-- Grid Saerch
-- SVM => Margaux
-- Random Forest (outside scope of the course)
-- XG Boost (outside scope of the course)
-- define hyperparameter
+- Random Forest (outside scope of the course) => MARGAUX
+- XG Boost (outside scope of the course) => MARGAUX
 
-CONCLUSION
+VISUALISER LES RESULTATS DE PREDICTION => NATACHA
+- graphique avec les target réelles et prédites en fonction du jour
+
+CONCLUSION 
 - BIAS / VARIANCE TRADE OFF
+- Bibliographie UTILISER PERPLEXITY => MARGAUX
 
 LATEX 
-- copier coller readme
+- A ECRIRE
 
 GOOGLE SCHOLAR
 https://www.sciencedirect.com/science/article/abs/pii/S1364032115013866?casa_token=7cGV5UA93xwAAAAA:BUhcOVfLbD5dupC4zZ53jStxBoCLME_91glTYGRvhO2NUIli0geEjzznQf_kU0hz8UXoAb44
