@@ -30,8 +30,8 @@ field of specialization. This will directly influence the type of data you need 
 - coefficient de spearman 
 
 ANALYSE UNIVARIEE => NATACHA
-- regrader les duplicatats de ligne
-- enlever les variations de prix extrèmes (black swans) OUTLIERS FAIT
+- regarder les duplicatats de ligne
+- expliquer les variations de prix extrèmes (black swans) OUTLIERS FAIT
 - explication des régimes de fonctionnement du nucléaire français
 - variable pas standardisé meme si elles en ont l'air
 
@@ -40,14 +40,6 @@ ANALYSE BIVARIEE / MUlTIVARIEE => MATHIS
 - regarder si y'a des variables à regrouper
 
 FEATURE ENGINEERING => NATACHA
-- changer de place le traitement des outliers (mettre dans la pipe de base) FAIT
-- standardiser ou non en fonction du model FAIT
-- retravailler le pipeline_all
-    - modifier l'implémentation de la fonction features_engineering maintenant appellée transform()
-    - séparer france et allemagne
-    - ajouter la condition de grid search
-- mettre grid search dans le feature : parametre en entrée dico = None
-
 - regrouper des variables dans l'optique de Dimension reduction en fonction de l'analyse multi
 
 PIPE GENERAL => MATHIS
