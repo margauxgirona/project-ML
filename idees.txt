@@ -46,7 +46,6 @@ PIPE GENERAL => MATHIS
 - renvoyer les scores pour faire Bias / variance
 
 MODELS
-- créer un dico qui stock les paramètres et les résultats pour comparaison => NATACHA
 
 - Linear Regression => Mathis FAIT
 – Polynomial Regression => Mathis FAIT
