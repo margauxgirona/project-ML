@@ -29,12 +29,6 @@ field of specialization. This will directly influence the type of data you need 
 - Scientific papers, references, external sources
 - coefficient de spearman 
 
-ANALYSE UNIVARIEE => NATACHA
-- regarder les duplicatats de ligne
-- expliquer les variations de prix extrèmes (black swans) OUTLIERS FAIT
-- explication des régimes de fonctionnement du nucléaire français
-- variable pas standardisé meme si elles en ont l'air
-
 ANALYSE BIVARIEE / MUlTIVARIEE => MATHIS
 - Regarder les relations inter features (ex feature energie renouvelable)
 - regarder si y'a des variables à regrouper
