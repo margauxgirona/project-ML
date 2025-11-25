@@ -29,10 +29,6 @@ field of specialization. This will directly influence the type of data you need 
 - Scientific papers, references, external sources
 - coefficient de spearman 
 
-ANALYSE BIVARIEE / MUlTIVARIEE => MATHIS
-- Regarder les relations inter features (ex feature energie renouvelable)
-- regarder si y'a des variables à regrouper
-
 FEATURE ENGINEERING => NATACHA
 - regrouper des variables dans l'optique de Dimension reduction en fonction de l'analyse multi
 
@@ -41,8 +37,6 @@ PIPE GENERAL => MATHIS
 
 MODELS
 
-- Linear Regression => Mathis FAIT
-– Polynomial Regression => Mathis FAIT
 – Decision Tree Regression (à completer) => MATHIS
 - PCA Montrer qu'on l'a fait mais pas le garder => NATACHA
 - Voting Bagging or Stacking(pour decision tree regressor) COMPARER KFOLD ET BAGGING => MARGAUX 
