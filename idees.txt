@@ -18,6 +18,7 @@ field of specialization. This will directly influence the type of data you need 
 FEATURE ENGINEERING => NATACHA
 - regrouper des variables dans l'optique de Dimension reduction en fonction de l'analyse multi
 
+- Idee pour remplacer les nan à discuter
 PIPE GENERAL => MATHIS
 - renvoyer les scores pour faire Bias / variance
 
