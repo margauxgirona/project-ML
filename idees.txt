@@ -1,18 +1,4 @@
-Questions
 
-https://challengedata.ens.fr/participants/challenges/97/
-
-7) Bagging, K-Fold
-
-8) Trouver les contextes politique/economiques dans lesquelles les données ont été prises
-
-9) Grid Saerch, SVM, Random Forest, XG Boost
-
-10) Faire des pipes (regrouper le code) : preprocessing (= feature engineering)
-
-11) biais et variance (dire explicitement)
-
-12) Quest ce que :  Combine several algorithms for ensemble learning decision making
 
 GENERAL CHECK LAB4
 
