@@ -1,18 +1,4 @@
-Questions
 
-https://challengedata.ens.fr/participants/challenges/97/
-
-7) Bagging, K-Fold
-
-8) Trouver les contextes politique/economiques dans lesquelles les données ont été prises
-
-9) Grid Saerch, SVM, Random Forest, XG Boost
-
-10) Faire des pipes (regrouper le code) : preprocessing (= feature engineering)
-
-11) biais et variance (dire explicitement)
-
-12) Quest ce que :  Combine several algorithms for ensemble learning decision making
 
 GENERAL CHECK LAB4
 
@@ -29,26 +15,15 @@ field of specialization. This will directly influence the type of data you need 
 - Scientific papers, references, external sources
 - coefficient de spearman 
 
-ANALYSE UNIVARIEE => NATACHA
-- regarder les duplicatats de ligne
-- expliquer les variations de prix extrèmes (black swans) OUTLIERS FAIT
-- explication des régimes de fonctionnement du nucléaire français
-- variable pas standardisé meme si elles en ont l'air
-
-ANALYSE BIVARIEE / MUlTIVARIEE => MATHIS
-- Regarder les relations inter features (ex feature energie renouvelable)
-- regarder si y'a des variables à regrouper
-
 FEATURE ENGINEERING => NATACHA
 - regrouper des variables dans l'optique de Dimension reduction en fonction de l'analyse multi
 
+- Idee pour remplacer les nan à discuter
 PIPE GENERAL => MATHIS
 - renvoyer les scores pour faire Bias / variance
 
 MODELS
 
-- Linear Regression => Mathis FAIT
-– Polynomial Regression => Mathis FAIT
 – Decision Tree Regression (à completer) => MATHIS
 - PCA Montrer qu'on l'a fait mais pas le garder => NATACHA
 - Voting Bagging or Stacking(pour decision tree regressor) COMPARER KFOLD ET BAGGING => MARGAUX 
