@@ -54,7 +54,7 @@ MODELS
 - Voting Bagging or Stacking(pour decision tree regressor) COMPARER KFOLD ET BAGGING => MARGAUX 
 - SVM => MARGAUX
 
-- Random Forest (outside scope of the course) => MARGAUX
+- Random Forest (outside scope of the course) => MARGAUX 
 - XG Boost (outside scope of the course) => MARGAUX
 
 VISUALISER LES RESULTATS DE PREDICTION => NATACHA
