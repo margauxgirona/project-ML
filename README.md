@@ -187,17 +187,6 @@ Spearman is computed by applying Pearson correlation on ranked variables, making
 → Built separate models for France and Germany  
 → Compared performance per country
 
-## **Results Summary**
-
-_(To be completed later as the project progresses)_
-
-| Model                    | Dataset      | Spearman (Train) | Spearman (Test) |
-| ------------------------ | ------------ | ---------------- | --------------- |
-| Linear Regression        | Global       | —                | —               |
-| Linear Regression        | France only  | —                | —               |
-| Linear Regression        | Germany only | —                | —               |
-| Polynomial Regression    | —            | —                | —               |
-| Decision Tree Regression | —            | —                | —               |
 
 ## **Key Observations**
 
